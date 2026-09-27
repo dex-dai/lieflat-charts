@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lieflat-charts",
+  "version": "0.1.0",
+  "description": "Create template-driven HTML charts and bilingual reports from data using Lieflat Charts.",
+  "author": {
+    "name": "躺在废墟里"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "lieflat-charts",
+        "shortDescription": "Template-driven HTML charts and reports",
+        "longDescription": "Turn data into polished, standalone HTML charts or full-page reports using the bundled Lieflat Charts templates, catalogs, and color systems.",
+        "developerName": "躺在废墟里",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "Use lieflat-charts to turn this data into an HTML chart.",
+          "Use lieflat-charts to create an HTML report from this data."
+        ]
+      }
+    }
+  }
+}
