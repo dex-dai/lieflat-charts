@@ -1,0 +1,7 @@
+{
+  "name": "lieflat-charts",
+  "owner": { "name": "larashero3-dotcom" },
+  "plugins": [
+    { "name": "lieflat-charts", "source": "./" }
+  ]
+}
